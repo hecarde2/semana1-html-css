@@ -1,6 +1,22 @@
+h1{
+    text-align: center;
+    background-color: rgb(248, 200, 67);
+    text-shadow: 4px 4px 5px rgba(8, 8, 8, 0.8);
+}
+h2{
+    background-color: rgb(248, 200, 67);
+}
 img{
     width: 300px;
     border: 1px;
     gap: 150px;
     margin: 10px;
 }
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Tipografía legible */
+    background-color: #fff892; /* Color de fondo claro */
+    color: #05023b; /* Color de texto oscuro */
+    margin: 0;
+    padding: 0;
+}
+
