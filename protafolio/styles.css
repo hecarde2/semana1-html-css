@@ -5,6 +5,7 @@ h1{
 }
 h2{
     background-color: rgb(248, 200, 67);
+    text-align: center;
 }
 img{
     width: 300px;
@@ -13,10 +14,23 @@ img{
     margin: 10px;
 }
 body {
+    
     font-family: 'Times New Roman', Times, serif, sans-serif; /* Tipografía legible */
     background-color: #fff892; /* Color de fondo claro */
     color: #05023b; /* Color de texto oscuro */
     margin: 0;
     padding: 0;
+}
+.box {
+    display: flex;       /* Alinea los artículos de forma horizontal */
+    gap: 60px;           /* Da espacio entre los perritos */
+    justify-content: center;
+    
+}
+
+article {
+    width: 400px;        /* Define un ancho para cada tarjeta */
+    border: 1px solid #ddd;
+    padding: 15px;
 }
 
