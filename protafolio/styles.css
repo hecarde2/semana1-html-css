@@ -39,13 +39,16 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.box img{
+    margin: 12%;
+}
 .box {
     display: flex; /* Alinea los artículos de forma horizontal */
     gap: 60px; /* Espacio entre los artículos */
     justify-content: center;
     flex-wrap: wrap; /* Permite que los artículos se ajusten en varias filas */
     margin: 20px; /* Margen alrededor de la caja */
+    
 }
 
 article {
