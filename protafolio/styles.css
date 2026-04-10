@@ -3,7 +3,7 @@ h1 {
     text-align: center;
     background-color: rgb(7, 7, 7);
     padding: 40px; 
-    color: #ececec;
+    color: #ffffff;
 }
 /* sub titulos (nombre de los perros */
 h2 {
@@ -36,9 +36,9 @@ img:hover {
 
 body {
     font-family: 'Times New Roman', Times, serif; 
-    background-color: #ececec; 
+    background-color: #b6b3b3; 
     color: #05023b; 
-    margin: 20;
+    margin: 100px;
     padding: 20;
 }
 /* editar imagen del box */
