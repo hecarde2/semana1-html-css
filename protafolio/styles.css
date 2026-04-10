@@ -1,9 +1,9 @@
 h1 {
     text-align: center;
-    background-color: rgb(228, 228, 184);
+    background-color: rgb(7, 7, 7);
     text-shadow: 4px 4px 5px rgba(8, 8, 8, 0.8);
-    padding: 20px; /* Espaciado alrededor del título */
-    border-radius: 10px; /* Bordes redondeados */
+    padding: 40px; /* Espaciado alrededor del título */
+    color: #ececec;
 }
 
 h2 {
@@ -14,11 +14,12 @@ h2 {
     border-radius: 5px; /* Bordes redondeados */
 }
 h3{
-    background-color: rgb(209, 209, 208);
+    background-color: rgb(8, 8, 8);
     text-align: left;
     text-shadow: 4px 4px 5px rgba(8, 8, 8, 0.8);
     padding: 10px; /* Espaciado alrededor de los subtítulos */
-    border-radius: 5px; /* Bordes redondeados */
+    border-radius: 100px; /* Bordes redondeados */
+    color: #ececec;
 }
 
 img {
@@ -40,7 +41,7 @@ body {
     padding: 0;
 }
 .box img{
-    margin: 12%;
+    margin: 12%; /* margenes de distancia con la caja de la imagen */
 }
 .box {
     display: flex; /* Alinea los artículos de forma horizontal */
@@ -68,5 +69,5 @@ article {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
 }
 .boton:hover{
-    transform: scale(1.50);
+    transform: scale(1.50); /*cuando este el puntero sobre el boton aumente este */
 }
