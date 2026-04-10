@@ -2,7 +2,6 @@
 h1 {
     text-align: center;
     background-color: rgb(7, 7, 7);
-    text-shadow: 4px 4px 5px rgba(8, 8, 8, 0.8);
     padding: 40px; 
     color: #ececec;
 }
@@ -10,7 +9,6 @@ h1 {
 h2 {
     background-color: rgb(209, 209, 208);
     text-align: center;
-    text-shadow: 4px 4px 5px rgba(8, 8, 8, 0.8);
     padding: 10px;
     border-radius: 5px; 
 }
