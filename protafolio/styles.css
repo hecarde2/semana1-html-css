@@ -1,74 +1,79 @@
+/* estilo de titulo principal*/
 h1 {
     text-align: center;
     background-color: rgb(7, 7, 7);
     text-shadow: 4px 4px 5px rgba(8, 8, 8, 0.8);
-    padding: 40px; /* Espaciado alrededor del título */
+    padding: 40px; 
     color: #ececec;
 }
-
+/* sub titulos (nombre de los perros */
 h2 {
     background-color: rgb(209, 209, 208);
     text-align: center;
     text-shadow: 4px 4px 5px rgba(8, 8, 8, 0.8);
-    padding: 10px; /* Espaciado alrededor de los subtítulos */
-    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px;
+    border-radius: 5px; 
 }
+/* usando para el nombre de las secciones */
 h3{
     background-color: rgb(8, 8, 8);
     text-align: left;
     text-shadow: 4px 4px 5px rgba(8, 8, 8, 0.8);
-    padding: 10px; /* Espaciado alrededor de los subtítulos */
-    border-radius: 100px; /* Bordes redondeados */
+    padding: 10px; 
+    border-radius: 100px; 
     color: #ececec;
 }
-
+/* configurar imagenen */
 img {
     width: 300px;
-    border: 2px solid #ccc; /* Borde más visible */
+    border: 2px solid #ccc; 
     margin: 10px;
-    border-radius: 5px; /* Bordes redondeados para las imágenes */
+    border-radius: 5px; 
     border-image: auto;
 }
+/* para cuando pase el mause por arriba */
 img:hover {
-    transform: scale(1.50); /* Aumenta el tamaño de la imagen al pasar el puntero */
+    transform: scale(1.50); 
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif; /* Tipografía legible */
-    background-color: #ececec; /* Color de fondo claro */
-    color: #05023b; /* Color de texto oscuro */
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: #ececec; 
+    color: #05023b; 
     margin: 20;
     padding: 20;
 }
+/* editar imagen del box */
 .box img{
-    margin: 12%; /* margenes de distancia con la caja de la imagen */
+    margin: 12%; 
 }
 .box {
-    display: flex; /* Alinea los artículos de forma horizontal */
-    gap: 60px; /* Espacio entre los artículos */
+    display: flex; 
+    gap: 60px; 
     justify-content: center;
-    flex-wrap: wrap; /* Permite que los artículos se ajusten en varias filas */
-    margin: 20px; /* Margen alrededor de la caja */
+    flex-wrap: wrap; 
+    margin: 20px; 
     
 }
 
 article {
-    width: 400px; /* Ancho para cada tarjeta */
+    width: 400px; 
     border: 1px solid #ddd;
     padding: 15px;
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
-    background-color: white; /* Fondo blanco para las tarjetas */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: white; 
 }
 .boton {
-    display: inline-block; /* Permite que el botón tenga un tamaño adecuado */
-    padding: 10px 20px; /* Espaciado interno */
-    background-color: #f5f5f5; /* Color de fondo azul */
-    color: white; /* Color del texto */
-    border-radius: 5px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #f5f5f5; 
+    color: white; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-decoration: none;
 }
 .boton:hover{
-    transform: scale(1.50); /*cuando este el puntero sobre el boton aumente este */
+    transform: scale(1.50); 
 }
 
