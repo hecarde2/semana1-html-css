@@ -37,8 +37,8 @@ body {
     font-family: 'Times New Roman', Times, serif; /* Tipografía legible */
     background-color: #ececec; /* Color de fondo claro */
     color: #05023b; /* Color de texto oscuro */
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 20;
 }
 .box img{
     margin: 12%; /* margenes de distancia con la caja de la imagen */

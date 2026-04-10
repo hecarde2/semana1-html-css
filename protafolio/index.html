@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> /* parte superior (barra en el navegador) */ 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <header>
-    <h1> .... HECTOR MARIO CARVAJAL DE LOS REYES .... </h1>
+    <h1> .... HECTOR MARIO CARVAJAL DE LOS REYES .... </h1> /* titulo de la pagina */ 
 </header>
 <body>
     
     <nav>
-        <ul>
+        <ul> /* menú de navegación en la página */
             <li><a href="#sobre-mi">Sobre mí</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#contacto">Contacto</a></li>
             <li><a href="mascotas.html">Mascotas</a></li>
         </ul>
     </nav>
-    
+    /* secciones */
     <section id="sobre-mi">
         <h3>Sobre mí:</h3>
         <pre>
@@ -43,6 +43,8 @@
     <section id="contacto">
         <h3>Contacto</h3>
         <form>
+            <label>Nombre</label>
+            <input type="text" name="nombre completo" required><br>
             <label>Email</label>
             <input type="email" name="email" required><br>
             <label>Comentarios</label>
@@ -50,5 +52,5 @@
             <button type="submit" disabled>Enviar</button>
         </form>
     </section>
-</body>
+</body> /* final del cuerpo de página */
 </html>
