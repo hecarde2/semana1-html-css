@@ -48,7 +48,7 @@ img:hover {
 
 body {
     font-family: 'Times New Roman', Times, serif; 
-    background-color: #0e0e0e; 
+    background-color: #202020; 
     color: #f8f8fa; 
     margin: 100px;
     padding: 20;
@@ -138,4 +138,12 @@ nav a {
 .centrar{
     text-align: center;
 }
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    text-align: center;
+}
+
 
