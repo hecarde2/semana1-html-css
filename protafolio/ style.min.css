@@ -1,4 +1,3 @@
-/* QUITAR LOS MARGENES QUE VIENEN POR DEFECTO */ 
 * {
     margin: 0;
     padding: 0;
@@ -12,13 +11,10 @@ body {
     line-height: 1.6;
 }
 
-/* SECCIONES GENERALES */
 section {
-    margin: 150px auto;        /* separación entre secciones */
-    padding: 20px;
-    max-width: 1200px;        /* centra el contenido */
+    margin: 150px auto;      
+    max-width: 1200px;        
 }
-
 
 .header {
     display: flex; 
@@ -29,7 +25,6 @@ section {
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-/* NAV */
 nav {
     display: flex;
     gap: 25px;
@@ -46,7 +41,6 @@ nav a:hover {
     color: #0077cc;
 }
 
-/* TITULOS */
   h1 {
     margin: 40px auto;
     max-width: 900px;
@@ -65,7 +59,7 @@ nav a:hover {
     text-align: left;  
     box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
-/* cambiar el tamaño del texto a 1 rem = 16 px*/
+
 html {
     font-size: 1rem;
 }
@@ -74,15 +68,15 @@ h2, h3 {
     margin-bottom: 20px;
 }
 
-/* CONTENEDOR MASCOTAS */
+
 .box {
     display: flex; 
-    gap: 40px;                 /* distancia entre las mascotas*/
+    gap: 40px;                
     justify-content: center;
     flex-wrap: wrap; 
 }
 
-/* TARJETAS */
+
 article {
     width: 300px; 
     padding: 20px;
@@ -97,7 +91,7 @@ article:hover {
     transform: translateY(-5px);
 }
 
-/* IMAGENES */
+
 img {
     width: 100%;
     border-radius: 10px; 
@@ -105,7 +99,7 @@ img {
     height: auto;
 }
 
-/* BOTONES */
+
 .boton {
     display: inline-block;
     padding: 10px 20px; 
@@ -116,8 +110,6 @@ img {
     margin-top: 15px;
 }
 
-
-
 .projects {
     text-align: center;
 }
@@ -125,11 +117,11 @@ img {
 .project-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 30px;              /* espacio entre tarjetas */
+    gap: 30px;              
     margin-top: 30px;
 }
 
-/* TARJETAS DE PROYECTO */
+
 .project-card {
     padding: 25px;
     background-color: #ffffff;
@@ -147,14 +139,14 @@ img {
     transform: translateY(-5px);
 }
 
-/* GALERIA */
+
 .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
 }
 
-/* UTILIDAD */
+
 .centrar {
     text-align: center;
 }
@@ -180,8 +172,7 @@ img {
     border-radius: 12px; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-/* MODELO RESPONSIVE */
-/* TABLETS (pantallas medianas)  */
+
 @media (max-width: 1024px) {
 
  
@@ -196,7 +187,6 @@ img {
 }
 
 
-/* MÓVILES (pantallas pequeñas) */
 @media (max-width: 600px) {
 
  
