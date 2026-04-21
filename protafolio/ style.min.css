@@ -1,3 +1,24 @@
+:root {
+    
+    --color-fondo: #f4f6f9;
+    --color-blanco: #ffffff;
+    --color-texto: #333;
+    --color-negro: #000000;
+    --color-primario: #0077cc;
+
+    
+    --gradiente-titulo: linear-gradient(90deg, #e3f2fd, #93bef7);
+
+    --sombra-suave: 0 2px 8px rgba(0,0,0,0.08);
+    --sombra-media: 0 4px 10px rgba(0,0,0,0.08);
+    --sombra-fuerte: 0 4px 15px rgba(0,0,0,0.1);
+
+   
+    --fuente-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+    --tamano-base: 1rem;
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +26,6 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f6f9; 
-    color: #333; 
     line-height: 1.6;
 }
 
@@ -95,7 +113,7 @@ article:hover {
 img {
     width: 100%;
     border-radius: 10px; 
-    margin-bottom: 15px;   /* separación con texto */
+    margin-bottom: 15px;   
     height: auto;
 }
 
