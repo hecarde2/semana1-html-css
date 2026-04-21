@@ -177,3 +177,38 @@ img {
     border-radius: 12px; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
+/* MODELO RESPONSIVE */
+/* TABLETS (pantallas medianas)  */
+@media (max-width: 1024px) {
+
+ 
+  .project-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* MÓVILES (pantallas pequeñas) */
+@media (max-width: 600px) {
+
+ 
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+
+  
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
