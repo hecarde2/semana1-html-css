@@ -1,3 +1,16 @@
+:root{
+--black:#000;
+--dark:#111;
+--white:#fff;
+
+--gold:#d4af37;
+--gold-light:#ffd700;
+--gold-mid:#b8860b;
+
+--font-main:Arial, sans-serif;
+}
+
+/* RESET */
 *{
 margin:0;
 padding:0;
@@ -9,41 +22,41 @@ font-size:1rem;
 }
 
 body{
+font-family:var(--font-main);
 line-height:1.6;
-background:#000;
-color:white;
 
-/* ex marc */
+background:var(--black);
+color:var(--white);
+
 margin:20px;
-min-height:calc(100vh - px);
 
-border:6px solid #d4af37;
+border:6px solid var(--gold);
 
- /* int marc*/
-outline:2px solid #ffd700;
+outline:2px solid var(--gold-light);
 outline-offset:-12px;
 }
 
-
+/* SECCIONES */
 section{
 margin:150px auto;
 padding:20px;
 max-width:1200px;
 }
 
-
+/* HEADER */
 .header{
 display:flex;
 justify-content:space-between;
 align-items:center;
+
 padding:20px 40px;
 
-background:#111;
+background:var(--dark);
 
-border-bottom:2px solid gold;
+border-bottom:2px solid var(--gold-light);
 }
 
-/* 1 section */
+/* NAV */
 nav{
 display:flex;
 gap:25px;
@@ -51,17 +64,16 @@ margin-left:40px;
 }
 
 nav a{
-color:white;
+color:var(--white);
 text-decoration:none;
 font-weight:600;
-
 }
 
 nav a:hover{
-color:gold;
+color:var(--gold-light);
 }
 
-
+/* TITULOS */
 h1{
 margin:40px auto;
 max-width:900px;
@@ -69,19 +81,18 @@ padding:25px 30px;
 
 font-size:2.2rem;
 font-weight:700;
-letter-spacing:1px;
 
 background:linear-gradient(
 90deg,
-#000000 20%,
+var(--black) 20%,
 #3d2f00 50%,
-#b8860b 75%,
-#ffd700 100%
+var(--gold-mid) 75%,
+var(--gold-light) 100%
 );
 
-color:white;
+color:var(--white);
 
-border-left:6px solid gold;
+border-left:6px solid var(--gold-light);
 
 border-radius:10px;
 
@@ -89,11 +100,19 @@ box-shadow:0 0 15px rgba(212,175,55,.35);
 }
 
 h2,h3,p{
-color:white;
+color:var(--white);
 margin-bottom:20px;
 }
 
+/* REGLAS AGRUPADAS */
+article,
+.project-card,
+.boton{
+border-radius:12px;
+border:1px solid var(--gold-light);
+}
 
+/* CONTENEDORES */
 .box{
 display:flex;
 gap:40px;
@@ -101,27 +120,20 @@ justify-content:center;
 flex-wrap:wrap;
 }
 
-
 article{
 width:300px;
 padding:20px;
 
-background:#111;
-
-color:white;
-
-border-radius:12px;
-border:1px solid gold;
-
-box-shadow:0 0 10px rgba(212,175,55,.2);
+background:var(--dark);
 
 text-align:center;
+
+box-shadow:0 0 10px rgba(212,175,55,.2);
 }
 
 article:hover{
 transform:translateY(-5px);
 }
-
 
 img{
 width:100%;
@@ -129,18 +141,23 @@ border-radius:10px;
 margin-bottom:15px;
 }
 
+/* BOTONES */
 .boton{
 display:block;
 width:150px;
+
 margin:20px auto;
-text-align:center;
+
 padding:10px 20px;
-background:gold;
-color:black;
-border-radius:6px;
+
+background:var(--gold-light);
+color:var(--black);
+
+text-align:center;
 text-decoration:none;
 }
 
+/* PROYECTOS */
 .projects{
 text-align:center;
 }
@@ -154,23 +171,18 @@ margin-top:30px;
 
 .project-card{
 padding:25px;
-
-background:#111;
-
-color:white;
-
-border:1px solid gold;
-border-radius:12px;
+background:var(--dark);
+color:var(--white);
 
 text-decoration:none;
 }
 
 .project-card:hover{
-background:gold;
-color:black;
+background:var(--gold-light);
+color:var(--black);
 }
 
-/* GALERIA  PETS */
+/* GALERIA */
 .galeria{
 display:grid;
 grid-template-columns:repeat(3,1fr);
@@ -188,18 +200,18 @@ object-fit:cover;
 text-align:center;
 }
 
-/* principal CONTAINER PAGE*/
+/* CONTAINER */
 .container{
 width:85%;
 max-width:1500px;
 margin:20px auto;
 
-background:#000;
+background:var(--black);
 
 padding:30px;
 
 border-radius:12px;
-border:2px solid gold;
+border:2px solid var(--gold-light);
 
 box-shadow:0 0 15px rgba(212,175,55,.2);
 }
