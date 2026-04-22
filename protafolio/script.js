@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-    alert("PORTAFOLIO DE HÉCTOR CARVAJAL");
+    alert("WELCOME");
 });
 
 
@@ -19,3 +19,4 @@ if (boton && imagen) {
     });
 
 }
+
