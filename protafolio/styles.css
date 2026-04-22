@@ -8,31 +8,30 @@ html{
 font-size:1rem;
 }
 
-/* PAGINA */
 body{
 line-height:1.6;
 background:#000;
 color:white;
 
-/* marco exterior */
+/* ex marc */
 margin:20px;
 min-height:calc(100vh - px);
 
 border:6px solid #d4af37;
 
-/* marco interior */
+ /* int marc*/
 outline:2px solid #ffd700;
 outline-offset:-12px;
 }
 
-/* SECCIONES */
+
 section{
 margin:150px auto;
 padding:20px;
 max-width:1200px;
 }
 
-/* HEADER */
+
 .header{
 display:flex;
 justify-content:space-between;
@@ -44,23 +43,25 @@ background:#111;
 border-bottom:2px solid gold;
 }
 
-/* NAV */
+/* 1 section */
 nav{
 display:flex;
 gap:25px;
+margin-left:40px;
 }
 
 nav a{
 color:white;
 text-decoration:none;
 font-weight:600;
+
 }
 
 nav a:hover{
 color:gold;
 }
 
-/* TITULO */
+
 h1{
 margin:40px auto;
 max-width:900px;
@@ -92,7 +93,7 @@ color:white;
 margin-bottom:20px;
 }
 
-/* CONTENEDOR */
+
 .box{
 display:flex;
 gap:40px;
@@ -100,7 +101,7 @@ justify-content:center;
 flex-wrap:wrap;
 }
 
-/* TARJETAS */
+
 article{
 width:300px;
 padding:20px;
@@ -121,7 +122,7 @@ article:hover{
 transform:translateY(-5px);
 }
 
-/* IMAGENES */
+
 img{
 width:100%;
 border-radius:10px;
@@ -140,7 +141,6 @@ border-radius:6px;
 text-decoration:none;
 }
 
-/* PROYECTOS */
 .projects{
 text-align:center;
 }
@@ -170,7 +170,7 @@ background:gold;
 color:black;
 }
 
-/* GALERIA */
+/* GALERIA  PETS */
 .galeria{
 display:grid;
 grid-template-columns:repeat(3,1fr);
@@ -188,7 +188,7 @@ object-fit:cover;
 text-align:center;
 }
 
-/* CONTENEDOR CENTRAL */
+/* principal CONTAINER PAGE*/
 .container{
 width:85%;
 max-width:1500px;
